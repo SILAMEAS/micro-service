@@ -1,26 +1,57 @@
+# Maven build output
+target/
+**/target/
 
-./auth-service/mvn/wrapper/maven-wrapper.jar
-!**/auth-service/src/main/**/target/
-!**/auth-service/src/test/**/target/
+# Maven Wrapper files (optional, but usually committed)
+# .mvn/
+# mvnw
+# mvnw.cmd
 
+# Eclipse files
+.classpath
+.project
+.settings/
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA files
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# VS Code files
+.vscode/
+
+# NetBeans files
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore jar folder if you generate jars there manually
+jar/
+
+# Ignore build directories except inside src if any (optional)
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
-### Env ###
-.env
+# Ignore test output directories
+test-output/

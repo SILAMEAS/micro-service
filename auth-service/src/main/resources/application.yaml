@@ -1,3 +1,5 @@
+server:
+  port: ${AUTH_SERVICE_PORT:8000}
 app:
   name: "@project.name@"
   version: "@project.version@"
@@ -27,9 +29,6 @@ spring:
           keycloak:
             issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8080/realms/demo-realm}
             user-name-attribute: preferred_username
-
-server:
-  port: ${APPLICATION_PORT:9000}
 
 logging:
   level:

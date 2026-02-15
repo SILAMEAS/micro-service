@@ -1,0 +1,12 @@
+server:
+  port: ${RESOURCE_SERVICE_PORT:8001}
+app:
+  name: "@project.name@"
+  version: "@project.version@"
+  description: "@project.description@"
+  artifact: "@project.artifactId@"
+  group: "@project.groupId@"
+
+spring:
+  application:
+    name: "@project.name@"
