@@ -1,17 +1,8 @@
-auth-service/HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+./auth-service/mvn/wrapper/maven-wrapper.jar
+!**/auth-service/src/main/**/target/
+!**/auth-service/src/test/**/target/
+
 
 ### IntelliJ IDEA ###
 .idea
